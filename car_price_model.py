@@ -26,7 +26,6 @@ df.drop(['Car_Name', 'Year'], axis=1, inplace=True)
 df = pd.get_dummies(df, drop_first=True)
 
 
-
 # 4. SPLITTING THE DATA
 # X contains the independent variables (Features like kms driven, age, etc.)
 # Y contains the dependent variable (Target: Selling_Price)
